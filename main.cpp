@@ -1,8 +1,8 @@
 #include <bits/stdc++.h>
 #define sz 9
-using namespace std;
 
 int arr[sz][sz] = {0};
+using namespace std;
 int n;
 vector<int> nums = {1,2,3,4,5,6,7,8,9};
 vector<int> row;
@@ -111,6 +111,10 @@ int main(){
 				cout << fl[j] << " ";
 			}
 			cout << ")" << endl;
+		}
+		else {
+			cout << "NO SOLUTION" << endl;
+			break;
 		}
 	}
 }
